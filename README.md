@@ -1,6 +1,6 @@
 # SmartWatch
 
-SmartWatch is an alternative to wml or symlinks for use in real time development of dependencies.
+SmartWatch is an alternative to wix/wml or symlinks for use in real time development of dependencies.
 
 
 
