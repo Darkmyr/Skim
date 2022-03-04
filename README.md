@@ -2,7 +2,7 @@
 
 SmartWatch is an alternative to wix/wml or symlinks for use in real time development of dependencies.
 
-
+In simple terms, it watches a directory and copies its contents to a new directory
 
 ### Installation
 
