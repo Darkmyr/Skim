@@ -6,7 +6,7 @@ In simple terms, it watches a directory and copies its contents to a new directo
 
 ### Installation
 
-Install fswatch (`brew install fswatch`)
+Install [fswatch](https://github.com/emcrisostomo/fswatch) (`brew install fswatch`)
 
 Place smartwatch (below) in your `.bash_profile` or `.zshrc`
 
