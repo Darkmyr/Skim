@@ -20,6 +20,8 @@ function smartwatch() {
 }
 ```
 
+run `source <path/to/your/.bash_profile/or/.zshrc>`
+
 ### Usage
 
 Basic Usage:
