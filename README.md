@@ -29,6 +29,8 @@ Basic Usage:
 smartwatch old_dir/ new_dir
 ```
 
+Note the `/`. it matters
+
 ### Limitations 
 
 Smartwatch currently only supports one directory (or package) per process at this time. 
