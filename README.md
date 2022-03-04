@@ -13,7 +13,7 @@ Place Skim (below) in your `.bash_profile` or `.zshrc`
 ```sh
 function skim() {
   function run_rsync() {
-    rsync -rtuv "$1" "$2" --exclude "node_modules"
+    rsync -rtuv "$1" "$2" --exclude "node_modules" ".git"
   }
   run_rsync "$1" "$2";
   fswatch -o $1 | while read f; do run_rsync "$1" "$2"; done;
