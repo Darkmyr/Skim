@@ -13,7 +13,7 @@ Place smartwatch (below) in your `.bash_profile` or `.zshrc`
 ```sh
 function smartwatch() {
   function run_rsync() {
-    rsync -rtuv "$1" "$2"
+    rsync -rtuv "$1" "$2" --exclude "node_modules"
   }
   run_rsync "$1" "$2";
   fswatch -o $1 | while read f; do run_rsync "$1" "$2"; done;
